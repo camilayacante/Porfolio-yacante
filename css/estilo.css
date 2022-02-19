@@ -1,0 +1,167 @@
+.body {
+  font-family: "lato";
+  font-weight: 200;
+  color: #343434; }
+
+.navbar-brand {
+  font-family: "anton";
+  color: #9D3216 !important;
+  font-weight: 800; }
+
+.navbar {
+  background-color: #f3f3f3; }
+
+.nav-link {
+  font-family: "lato";
+  font-weight: 400; }
+  .nav-link:hover {
+    color: #9D3216 !important; }
+
+.banner {
+  background-image: url("../img/banner.jpg");
+  background-position: center center;
+  background-size: cover;
+  padding: 10rem;
+  padding-bottom: 8rem; }
+  .banner h1 {
+    font-family: "anton";
+    color: #9D3216;
+    font-size: 4rem;
+    margin-top: 3rem;
+    text-transform: uppercase; }
+  .banner .btn {
+    color: #DDD2D5;
+    background-color: #9A9D8B;
+    border-radius: 0%; }
+    .banner .btn:hover {
+      background-color: #9D3216; }
+  .banner hr.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #9D3216;
+    opacity: 1; }
+  .banner .servicios {
+    margin-top: 6rem; }
+    .banner .servicios h2 {
+      font-family: "Lato";
+      font-weight: 800;
+      color: #343434; }
+    .banner .servicios h3 {
+      color: #9A9D8B; }
+
+#grafica {
+  background-image: url("../img/fondodegrade-17.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 3rem;
+  padding-bottom: 10rem; }
+  #grafica h2 {
+    font-family: "anton";
+    font-weight: 800;
+    color: #f3f3f3;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem; }
+  #grafica .texto-redsocial {
+    font-family: "lato";
+    font-weight: 400;
+    color: #f3f3f3; }
+  #grafica .divider {
+    height: 0.2rem;
+    max-width: 8rem;
+    margin: 1.5rem;
+    background-color: #DDD2D5;
+    opacity: 1; }
+  #grafica .marcas {
+    margin-top: 2rem; }
+    #grafica .marcas h2 {
+      font-family: "anton";
+      font-weight: 800;
+      color: #343434; }
+    #grafica .marcas p {
+      font-family: "lato";
+      font-weight: 400;
+      font-size: 2rem;
+      color: #343434;
+      margin-top: 4rem; }
+
+#redsocial {
+  background-color: #fff;
+  padding-top: 2rem; }
+  #redsocial .r-social {
+    font-family: "anton";
+    font-weight: 800;
+    color: #888888;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem; }
+  #redsocial .texto-redsocial {
+    font-family: "lato";
+    font-weight: 400; }
+  #redsocial .divider {
+    height: 0.2rem;
+    max-width: 8rem;
+    margin: 1.5rem;
+    background-color: #9D3216;
+    opacity: 1; }
+  #redsocial .perfil a {
+    color: #9D3216;
+    font-size: 4rem;
+    text-align: center; }
+    #redsocial .perfil a:hover {
+      color: #343434; }
+  #redsocial .perfil p {
+    font-family: "lato";
+    font-size: medium;
+    font-weight: 600;
+    color: #9D3216;
+    text-align: center; }
+
+#portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
+  max-width: 1920px; }
+
+#portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
+  position: relative;
+  display: block; }
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(157, 50, 22, 0.7);
+  transition: opacity 0.25s ease;
+  text-align: center; }
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
+  font-family: "lato";
+  font-size: 0.85rem;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
+  font-size: 1.2rem;
+  font-family: "anton"; }
+
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
+  opacity: 1; }
+
+.sombra {
+  box-shadow: 5px 10px 18px #888888; }
+
+footer {
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #888888;
+  font-family: "lato";
+  margin-top: 3rem;
+  color: #f3f3f3; }
